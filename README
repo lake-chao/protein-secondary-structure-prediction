@@ -1,0 +1,30 @@
+Description of files
+list_train: list of pdb entries used as training dataset
+list_test: list of pdb entries used as test dataset
+list_validate: list of pdb entries used as validation dataset
+
+ss2.py: the python script used to build,  train, and test the LocalNet as described in the manuscript
+
+train.sh:  Linux shell script for running the training program ss2.py
+
+ss3.train: training dataset for window of 7 residues extracted from list_train
+ss3.test: training dataset for window of 7 residues extracted from list_test
+ss3.validate: training dataset for window of 7 residues extracted from list_validate
+
+for other datasets
+ss4: for window of 9 residues
+ss5: for window of 11 residues
+ss6: for window of 13 residues
+ss7: for window of 15 residues
+ss8: for window of 17 residues
+ss9: for window of 19 residues
+ssa: for window of 21 residues
+
+out00.model-16*:  saved model with best accuracy for dataset of window of 7 residues
+out01.model-10*:  saved model with best accuracy for dataset of window of 9 residues
+out02.model-17*:  saved model with best accuracy for dataset of window of 11 residues
+out03.model-19*:  saved model with best accuracy for dataset of window of 13 residues
+out04.model-7*:  saved model with best accuracy for dataset of window of 15 residues
+out05.model-6*:  saved model with best accuracy for dataset of window of 17 residues
+out06.model-7*:  saved model with best accuracy for dataset of window of 19 residues
+out07.model-12*:  saved model with best accuracy for dataset of window of 21 residues
